@@ -1,0 +1,14 @@
+defaultTasks 'greeter'
+
+tasks.register('greeter') 
+{
+    doLast 
+	{
+		String fillerName = "World"
+		
+		if (project.hasProperty('yourName'))
+		fillerName = "${yourName}"
+		
+        println "Hello ${fillerName}!"
+    }
+}
