@@ -1,0 +1,14 @@
+defaultTasks 'greeter'
+
+tasks.register('greeter') 
+{
+println "What is your name? "
+def yourName = System.in.newReader().readLine()
+
+if (yourName.matches(""))
+yourName = "World"
+
+println "Hello, ${yourName}!"       
+
+
+}
