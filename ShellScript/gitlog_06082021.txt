@@ -1,0 +1,14 @@
+pspectrum62 
+test/build.gradle
+
+pspectrum62 
+test2/build.gradle
+
+pspectrum62 
+textFile5
+
+pspectrum62 
+textFile4
+
+pspectrum62 
+textFile3
